@@ -1,0 +1,19 @@
+<?php
+
+//db conecccion 
+$host = "localhost";
+$db_name = "sistema";
+$username = "root";
+$password = "";
+  
+try {
+    $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
+}
+  
+// show error
+catch(PDOException $exception){
+    echo "Connection error: " . $exception->getMessage();
+}
+//fin de la coneccion
+
+?>

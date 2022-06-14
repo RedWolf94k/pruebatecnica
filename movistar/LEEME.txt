@@ -1,0 +1,8 @@
+Se incluye una copia de la DB
+Se utilizo XAMPP para levantar la base
+Para logearse solo existe un usuario sus datos son:
+usuario: kevin
+password: sistema
+
+No incluye autoria
+No es un sistema basado en servicos de consumo (falta de experiencia)
